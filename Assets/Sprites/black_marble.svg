@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256mm"
+   height="256mm"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   sodipodi:docname="black_marble.svg"
+   inkscape:export-filename="black_marble.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.59375351"
+     inkscape:cx="944.83652"
+     inkscape:cy="571.78609"
+     inkscape:window-width="3840"
+     inkscape:window-height="1529"
+     inkscape:window-x="3832"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.97000003"
+         id="stop1" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#999999;stop-opacity:0.56783921;"
+         offset="0"
+         id="stop13" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop14" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12"
+       id="radialGradient14"
+       cx="127.84077"
+       cy="127.92432"
+       fx="127.84077"
+       fy="127.92432"
+       r="125"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.024,0,0,1.024,-2.9089377,-2.9945)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="128"
+       cy="128"
+       fx="128"
+       fy="128"
+       r="128"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98054706,0,0,0.98054693,2.4899726,2.4899957)" />
+  </defs>
+  <ellipse
+     style="fill:#1c1c1c;fill-opacity:1;stroke:url(#radialGradient2);stroke-width:4.97998;stroke-dasharray:none"
+     id="path1"
+     cx="128"
+     cy="128"
+     rx="125.51002"
+     ry="125.51001" />
+  <circle
+     style="fill:url(#radialGradient14);fill-rule:nonzero;stroke-width:0.3;stroke-dasharray:none"
+     id="path2"
+     cx="128"
+     cy="128"
+     r="128" />
+</svg>
