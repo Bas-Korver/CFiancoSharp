@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 3
   tags:
   - MovePlate
+  - WinnerText
+  - WarningText
+  - RestartButton
+  - BoardSizeInput
+  - GamePiece
+  - GameTile
+  - CoordinateBox
   layers:
   - Default
   - TransparentFX
