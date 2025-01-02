@@ -203,7 +203,7 @@ Camera:
   m_BackGroundColor: {r: 0.1882353, g: 0.18039216, b: 0.16862746, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
@@ -223,7 +223,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
+  field of view: 16.4
   orthographic: 1
   orthographic size: 5.5
   m_Depth: -1
@@ -387,6 +387,7 @@ MonoBehaviour:
   gameTile: {fileID: 2358789932222763157, guid: a69d5be80b875eb438957d7fc9952299, type: 3}
   gamePiece: {fileID: 4342566763139932501, guid: 4adf1e8d4e6093c4b9bcb5e966f30389, type: 3}
   coordinateBox: {fileID: 3775013830093294299, guid: af997659fd22d5f4b94bd21590e70055, type: 3}
+  mainCamera: {fileID: 519420028}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
