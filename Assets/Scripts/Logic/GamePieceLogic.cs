@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Logic
@@ -102,6 +103,15 @@ namespace Logic
                     PieceMovePlate();
                 }
             }
+            
+            // string[,] convertedState = controller.GetComponent<AI>().ConvertBoardState(controller.GetComponent<Game>().GetBoardState());
+            // List<Move> moves = controller.GetComponent<AI>().GenerateMoves(convertedState);
+            // foreach (Move move in moves)
+            // {
+            //     Debug.Log(controller.GetComponent<Game>().GetBoardState()[move.XBoardStart, move.YBoardStart]);
+            //     Debug.Log("Player: " + move.playerColour + ", X start: " + move.XBoardStart + ", Y start: " + move.YBoardStart  + ", X end: " + move.XBoardEnd  + ", Y end: " + move.YBoardEnd);
+            // }
+            // Debug.Log("End");
         }
 
         public void DestroyMovePlates()
@@ -180,17 +190,9 @@ namespace Logic
             return false;
         }
 
-        public void PieceMovePlate()
+        private void PieceMovePlate()
         {
-            switch (name)
-            {
-                case nameof(PlayerColour.White):
-                    PointMovePlate(_xBoard, _yBoard + 1);
-                    break;
-                case nameof(PlayerColour.Black):
-                    PointMovePlate(_xBoard, _yBoard - 1);
-                    break;
-            }
+            PointMovePlate(_xBoard, _yBoard + _yDir);
             PointMovePlate(_xBoard - 1, _yBoard);
             PointMovePlate(_xBoard + 1, _yBoard);
         }

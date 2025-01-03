@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Logic
@@ -57,12 +59,12 @@ namespace Logic
             controller.GetComponent<Game>().SetPosition(_ownerReference);
 
         
-            controller.GetComponent<Game>().NextTurn();
             controller.GetComponent<Game>().SetCaptureChecked(false);
             GameObject[] positions = new GameObject[2];
             controller.GetComponent<Game>().SetCapturePositions(positions);
         
             _ownerReference.GetComponent<GamePieceLogic>().DestroyMovePlates();
+            controller.GetComponent<Game>().NextTurn();
         }
 
         public void SetCoords(int x, int y)
