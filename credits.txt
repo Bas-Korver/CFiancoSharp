@@ -1,0 +1,1 @@
+Thanks to Etredal for his tutorial on how to make a chess game in Unity: https://youtube.com/playlist?list=PLXV-vjyZiT4b7WGjgiqMy422AVyMaigl1&si=pw1vToezVSKX1W62 and https://github.com/etredal/Chess_App/tree/master
